@@ -59,3 +59,7 @@ gem 'protected_attributes'
 
 # settings
 gem 'settingslogic'
+
+# Bootstrap
+gem 'bootstrap-sass'
+gem 'font-awesome-rails'
