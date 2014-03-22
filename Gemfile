@@ -51,3 +51,7 @@ end
 
 # Html template
 gem 'slim-rails'
+
+# oauth
+gem 'devise'
+gem 'omniauth-github'
