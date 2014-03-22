@@ -55,3 +55,7 @@ gem 'slim-rails'
 # oauth
 gem 'devise'
 gem 'omniauth-github'
+gem 'protected_attributes'
+
+# settings
+gem 'settingslogic'
