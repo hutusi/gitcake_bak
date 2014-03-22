@@ -1,10 +1,14 @@
 Gitcake::Application.routes.draw do
   devise_for :users, :controllers => { :omniauth_callbacks => "omniauth_callbacks" }
+  
+  resource :dashboard, controller: "dashboard", only: [:show]
+  
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+  root 'dashboard#show'
 
   # Example of regular route:
   #   get 'products/:id' => 'catalog#view'
