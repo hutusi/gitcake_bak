@@ -63,3 +63,6 @@ gem 'settingslogic'
 # Bootstrap
 gem 'bootstrap-sass'
 gem 'font-awesome-rails'
+
+# Gravatar
+gem 'gravtastic'
